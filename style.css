@@ -79,7 +79,9 @@ hr {
 }
 .check {
   /* background: red; */
-  border: 2px dotted #00f;
+  height: 20px;
+  width: 20px;
+  margin: 8px;
 }
 
 #container3 {
@@ -122,8 +124,8 @@ hr {
   border: 0px solid white;
   background-color: #fff;
   padding: 10px;
-  margin-left: 35%;
-  margin-right: 34%;
+  margin-left: 37%;
+  margin-right: 37%;
   margin-top: -4%;
   /* z-index: 2; */
 }
@@ -156,8 +158,8 @@ hr {
   padding: 20px;
   border-radius: 8px;
   position: absolute;
-  top: 30%;
-  right: 39%;
+  top: 35%;
+  right: 37%;
 }
 .inputbox {
   width: 250px;
@@ -169,17 +171,28 @@ hr {
 .ipbox {
   border-radius: 5px;
   border: 1px solid red;
-  height: 25px;
-  width: 245px;
+  height: 35px;
+  width: 250px;
+  box-shadow: 2px 3px 4px grey;
 }
 .label {
-  font-style: Segoe UI;
+  font-family: Segoe UI;
   color: red;
   font-size: 20px;
   text-align: center;
-  padding: 15px;
+  padding: 10px;
 }
 .addbutton {
-  height: 24px;
-  width: 24px;
+
+  margin: 10px auto;
+}
+.button {
+  border-radius: 30px;
+  color: white;
+  background-color: red;
+  font-size: 18px;
+  height: 40px;
+  width: 90px;
+  border: 0px;
+  margin: 23px 100px;
 }
